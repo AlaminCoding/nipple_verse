@@ -1,5 +1,6 @@
 // font-family: 'Poppins', sans-serif;
 // font-family: 'Roboto', sans-serif;
+// font-family: 'Montserrat', sans-serif;
 html,
 body {
   padding: 0;
@@ -113,7 +114,7 @@ nav {
 .feature {
   margin-top: -650px;
   padding-top: 230px;
-  padding-bottom: 100px;
+  padding-bottom: 190px;
   height: auto;
   background-image: url("/feature-bg.png");
   background-position: top;
@@ -312,5 +313,75 @@ nav {
         grid-area: gifArea;
       }
     }
+  }
+}
+
+.roadmap {
+  width: 100%;
+  height: auto;
+  background-image: url("/roadmap-bg.png");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding-bottom: 1050px;
+  .heading {
+    margin-bottom: 30px;
+  }
+}
+.roadmap-text {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35.4px;
+  max-width: 1292px;
+  margin: 0 auto;
+  text-align: center;
+}
+.roadmap-row {
+  max-width: 1465px;
+  margin: 150px auto 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 40px;
+  position: relative;
+  img {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+  }
+  .roadmap-box {
+    width: 430px;
+    background: rgba(24, 1, 52, 0.63);
+    backdrop-filter: blur(5px);
+    border-radius: 45px;
+    padding: 40px;
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 25px;
+      color: #e6e7e8;
+      line-height: 41px;
+      margin-bottom: 25px;
+    }
+    li {
+      font-family: "Montserrat", sans-serif;
+      color: #c9b7df;
+      font-size: 16px;
+      line-height: 35px;
+    }
+  }
+}
+.roadmap-row-last {
+  max-width: 1214px;
+  justify-content: center;
+  align-items: stretch;
+  img {
+    left: -120px;
+  }
+  .roadmap-box {
+    margin: 0px 25px;
   }
 }
