@@ -323,7 +323,7 @@ nav {
   background-size: cover;
   background-position: top;
   position: relative;
-  padding-bottom: 1050px;
+  padding-bottom: 380px;
   .heading {
     margin-bottom: 30px;
   }
@@ -383,5 +383,140 @@ nav {
   }
   .roadmap-box {
     margin: 0px 25px;
+  }
+}
+
+.team {
+  background-image: url("/team-bg.png");
+  background-position: top;
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 80px;
+}
+.team-row {
+  max-width: 1437px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .team-img {
+    margin: 0px 5px;
+  }
+}
+.team-btn {
+  text-align: center;
+  margin-top: 80px;
+  button {
+    background-color: #12fed9;
+    width: 276px;
+    height: 87px;
+    border-radius: 45px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2d0067;
+    border: none;
+  }
+}
+
+.faq {
+  background-color: #2d0067;
+  padding-top: 50px;
+  .heading {
+    margin-bottom: 40px;
+  }
+  .line {
+    width: 72px;
+    height: 1px;
+    background-color: #f57c36;
+    margin: 0 auto;
+  }
+}
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: crimson;
+}
+
+.accordion {
+  max-width: 1437px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding-bottom: 100px;
+}
+.ac-box {
+  position: relative;
+  margin-bottom: 10px;
+  z-index: 1;
+  .ac-layer {
+    content: "";
+    position: absolute;
+    background-color: #1b1b31;
+    top: 70px;
+    left: 0px;
+    height: 0px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  .ac-layer-open {
+    height: 50px;
+  }
+}
+.ac-head {
+  background-color: #07071b;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 40px;
+  cursor: pointer;
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+  }
+  img {
+    transition: 1s;
+  }
+  .img-rotate {
+    transform: rotate(90deg);
+  }
+}
+.ac-body {
+  background-color: #1b1b31;
+  border-radius: 0px 0px 25px 25px;
+  padding: 0px 40px;
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s;
+  p {
+    color: #d6d6d6;
+    font-size: 19px;
+    line-height: 32px;
+    margin: 0;
+  }
+}
+.ac-body-open {
+  height: auto;
+  padding: 35px 40px;
+}
+
+footer {
+  padding-top: 50px;
+  height: 544px;
+  background-image: url("/footer.png");
+  background-position: bottom;
+  background-size: cover;
+  p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    text-align: center;
   }
 }
