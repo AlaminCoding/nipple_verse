@@ -36,17 +36,29 @@ const Navbar = () => {
       </ul>
       <ul className="social-icon">
         <li>
-          <a href="https://twitter.com/nippleverse" target="_blank">
+          <a
+            href="https://twitter.com/nippleverse"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/twitter.png" alt="" />
           </a>
         </li>
         <li>
-          <a href="https://opensea.io/collection/nippleverse" target="_blank">
+          <a
+            href="https://opensea.io/collection/nippleverse"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/m.png" alt="" />
           </a>
         </li>
         <li>
-          <a href="https://discord.gg/nippleverse" target="_blank">
+          <a
+            href="https://discord.gg/nippleverse"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src="/discord.png" alt="" />
           </a>
         </li>
