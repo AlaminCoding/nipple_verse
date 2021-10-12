@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <section className="banner">
-      <img src="/welcome.png" alt="" className="welcome" />
+      <img src="/welcome.png" alt="" className="welcome" id="banner" />
       <img src="/logo.png" alt="" className="logo" />
       <div className="banner-box">
         <div className="banner-text">

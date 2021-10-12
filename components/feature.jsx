@@ -3,7 +3,9 @@ import Image from "next/image";
 const Feature = () => {
   return (
     <section className="feature">
-      <div className="mint-box">
+      <img src="/right-mask.png" className="feature-right-mask" alt="" />
+      <img src="/left-mask.png" className="feature-left-mask" alt="" />
+      <div className="mint-box" id="connect">
         <img src="/mint-bg.png" className="mint-bg" alt="" />
         <div className="mint-text">
           <div className="mint-left">
@@ -26,9 +28,17 @@ const Feature = () => {
           </div>
         </div>
       </div>
-      <h2 className="heading">Featured</h2>
+      <h2 className="heading" id="feature">
+        Featured
+      </h2>
       <div className="feature-box">
-        <img src="/feature-box.png" alt="" className="feature-bg-box" />
+        <img src="/blocks.png" alt="" className="feature-block-img" />
+        <img src="/feature-box.png" alt="" className="feature-bg-box fb-img" />
+        <img
+          src="/feature-box-mobile.png"
+          alt=""
+          className="feature-sm-box fb-img"
+        />
         <div className="feature-left">
           <img src="/feature.gif" alt="" />
         </div>
@@ -42,7 +52,7 @@ const Feature = () => {
             text ever since the 1500s, when an unknown printer took a galley of
             type and scrambled it to make a type specimen book.
           </p>
-          <button>Get Started</button>
+          {/* <button>Get Started</button> */}
         </div>
       </div>
       <div className="nipple-box-wrapper">

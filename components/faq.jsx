@@ -6,7 +6,9 @@ const Faq = () => {
     setSelected(index);
   };
   return (
-    <section className="faq">
+    <section className="faq" id="faq">
+      <img src="/right-mask.png" className="faq-right-mask" alt="" />
+      <img src="/blocks.png" alt="" className="faq-block-img" />
       <h2 className="heading">Frequently Asked Questions</h2>
       <div className="line"></div>
       <div className="accordion">
