@@ -33,8 +33,8 @@ const Feature = () => {
           <img src="/feature.gif" alt="" />
         </div>
         <div className="feature-right">
-          <h2>Pic</h2>
-          <p className="sub-text">The Infinite Island is under attack!</p>
+          {/* <h2>Pic</h2>
+          <p className="sub-text">The Infinite Island is under attack!</p> */}
           <div className="line"></div>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

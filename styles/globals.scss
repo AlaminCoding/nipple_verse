@@ -233,6 +233,10 @@ nav {
     }
     .feature-right {
       padding-left: 80px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       h2 {
         color: #43b4ef;
         font-family: "Poppins", sans-serif;
